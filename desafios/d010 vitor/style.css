@@ -45,11 +45,13 @@ main{
 h2{
    font: normal normal 2em 'idroid';
    color: #171d2183;
+   text-indent: 8px;
 }
 h3{
     background-image: linear-gradient(10deg, #9a9aba, transparent);
     font: normal normal 1em 'idroid';
     color: #171d2183;
+    text-indent: 8px;
 }
 nav{
     padding: 5px;
@@ -113,4 +115,12 @@ ul{
     list-style-type: '✔️';
     columns: 2;
     list-style-position: inside;
+}
+
+main img {
+    width: 100%;
+}
+
+main p {
+    text-indent: 30px;
 }
