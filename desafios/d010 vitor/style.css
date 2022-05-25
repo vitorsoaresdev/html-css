@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    line-height: 2em;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#A7A7A8, #9BBEE1);
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+    padding: 25px;
+    color: white;
+    text-shadow: 5px 5px 15px #2f3a4483;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 15px #2f3a4483;
+}
+
+header{
+    height: auto;
+    background-image: linear-gradient(#677d94,#0cb08f );
+    background-attachment: fixed;
+}
+
+main{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 15px #2f3a4483;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+h2{
+   font: normal normal 2em 'idroid';
+   color: #171d2183;
+}
+h3{
+    background-image: linear-gradient(10deg, #9a9aba, transparent);
+    font: normal normal 1em 'idroid';
+    color: #171d2183;
+}
+nav{
+    padding: 5px;
+    border-top: 10px;
+}
+nav > a{
+    text-decoration: none;
+    color:white ;
+    font-weight: bold;
+    margin-right: 30px;
+    border-radius: 2px;
+    
+}
+nav > a:hover{
+    background-color: #0b0f1283;
+}
+.curiosidades{
+    font-weight: bold;
+    color:#5b9e90fb;
+}
+.link{
+    background-image: linear-gradient(10deg, #9a9aba64, transparent);
+    text-decoration: none;
+    font-weight: bold;
+    color:#5b9e90fb;
+}
+.link:hover{
+    text-decoration: underline;
+}
+section{
+    background-image: linear-gradient(#b6b6ba, #8fafce);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+h4{
+    margin: -10px;
+    padding: 10px;
+    background-color: #b1c6c6a1;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+aside{
+    background-color:#0b0f1283 ;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: min(100% - 2rem, 800px);
+    margin-inline: auto;
+}
+ul{
+    list-style-type: '✔️';
+    columns: 2;
+    list-style-position: inside;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'cream' ;
+            src: url('Creamer.otf') format('opentype'), url('Creamer.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipor de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+        h1{
+            font: normal normal 2em 'cream'
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem reiciendis tenetur rerum doloribus, molestias quis, provident officia sunt quibusdam obcaecati autem ducimus magni aspernatur repudiandae impedit voluptatibus et quos illo?</p>
+</body>
+</html>
