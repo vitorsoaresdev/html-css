@@ -4,35 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alinhamento vertical</title>
+    <title>Espaço</title>
     <style>
-        #container {
-            background-image: url('imagens/target001.png');
-            background-size: 100% 100%;
+        
+        body#container {
             position: relative;
-            height: 95vh;
-            padding: 10px;
-            background-color: yellow;
+            height: 97vh;
+            background: black url('imagens/espaco.jpg') top left no-repeat fixed;
+            background-size: cover;
             
         }
 
-        #conteudo {
-            background-image: url('imagens/target001.png');
+        article#conteudo {
+            position: absolute;
+            background-image: url('imagens/astronauta.png');
             background-position: center center;
             background-repeat: no-repeat;
-            position: absolute;
-            height: 200px;
-            width: 400px;
-            background-color: red;
+            height: 600px;
+            width: 700px;
 
-            left: 50%;
             top: 50%;
+            left: 50%;
 
             transform: translate(-50%, -50%);
+        
+        
+
+            
         }
     </style>
 </head>
-<body>
+<body id="container">
     <section id="container">
         <article id="conteudo">
 
