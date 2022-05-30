@@ -22,7 +22,8 @@ header h1 {
     color: white;
     font-family: var(--font-cabecalho);
     text-align: center;
-    font-size: 9vw;
+    font-variant: small-caps;
+    font-size: 8vw;
     padding-top: 50px; 
 }
 
@@ -47,7 +48,7 @@ main p {
     font-family: var(--fonte-texto);
     text-align: justify;
     margin: 40px;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 section.parallax1 {
